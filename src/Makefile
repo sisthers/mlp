@@ -20,9 +20,7 @@ network.a:
 	ranlib $(LIB)
 
 style:
-	cp ../materials/linters/.clang-format .clang-format
 	clang-format -verbose -n *.cc model/*.cc model/*.h view/*.cc view/*.h controller/*.cc controller/*.h
-	rm .clang-format
 
 check: style leaks clean
 
