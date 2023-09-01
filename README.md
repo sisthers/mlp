@@ -14,6 +14,11 @@ git clone https://github.com/sisthers/mlp.git
 make install
 ```
 
+### Launch
+```
+./build/MLP
+```
+
 ### Description
 
 #### Training
